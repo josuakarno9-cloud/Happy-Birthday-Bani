@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#09051a">
+  <title>Happy Birthday Bani 🎂</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="stars"></div>
+  <div id="emojiLayer"></div>
+  <div id="confetti"></div>
+
+  <button id="musicBtn" class="music-btn" aria-label="Toggle music">🎵 OFF</button>
+
+  <main>
+    <section id="opening" class="screen opening">
+      <div class="moon"></div>
+      <div class="intro">
+        <p class="eyebrow">A little surprise for you ✨</p>
+        <h1 id="introText">Hey Bani… 👀</h1>
+        <p id="introSub">Wait… something special is waiting for you.</p>
+        <button id="openBtn" class="glow-btn">🎁 OPEN YOUR SURPRISE</button>
+      </div>
+    </section>
+
+    <section id="birthday" class="screen hidden">
+      <div class="hero">
+        <div class="floating-balloon b1">🎈</div>
+        <div class="floating-balloon b2">🎈</div>
+        <div class="sparkle">✦</div>
+        <p class="eyebrow">Today is your special day</p>
+        <h2>🎉 HAPPY BIRTHDAY 🎉</h2>
+        <h3>BANI <span>❤️</span></h3>
+        <p class="hero-sub">A new chapter. More stories. More reasons to smile. ✨</p>
+      </div>
+
+      <section class="card cake-card">
+        <p class="section-tag">MAKE A WISH</p>
+        <h4>One wish is waiting… 🕯️</h4>
+        <div class="cake-wrap">
+          <div class="cake">
+            <div class="flame f1"></div><div class="flame f2"></div><div class="flame f3"></div>
+            <div class="candles"><span></span><span></span><span></span></div>
+            <div class="icing"></div>
+            <div class="cake-body"></div>
+            <div class="plate"></div>
+          </div>
+        </div>
+        <button id="wishBtn" class="glow-btn small">🕯️ Make a Wish</button>
+        <p id="wishMessage" class="hidden message-pop">May your wish come true, Bani. ✨</p>
+      </section>
+
+      <section class="card message-card">
+        <p class="section-tag">A LITTLE MESSAGE 💌</p>
+        <h4>For Bani</h4>
+        <p id="typedMessage" class="typed"></p>
+      </section>
+
+      <section class="card gift-card">
+        <p class="section-tag">ONE MORE THING… 👀</p>
+        <h4>There is a mystery inside.</h4>
+        <button id="giftBtn" class="gift" aria-label="Open gift">🎁</button>
+        <p id="giftMessage" class="hidden gift-result">YOU ARE SPECIAL ❤️<br><small>Never forget how precious you are.</small></p>
+      </section>
+
+      <section class="final">
+        <p class="section-tag">ONE LAST THING…</p>
+        <button id="finalBtn" class="glow-btn">✨ SHOW ME</button>
+        <div id="finalMessage" class="hidden">
+          <div class="final-stars">✦ ✧ ★ ✧ ✦</div>
+          <h2>BANI ❤️</h2>
+          <p>Happy Birthday! 🎂</p>
+          <span>May this new chapter bring you more happiness, more unforgettable moments, and many reasons to smile. ✨</span>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <button id="egg" class="egg" aria-label="Secret">👀</button>
+
+  <audio id="music" loop preload="none">
+    <source src="" type="audio/mpeg">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
